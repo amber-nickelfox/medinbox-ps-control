@@ -26,7 +26,7 @@ def command():
 @app.route("/set-next/")
 def set_next():
     global COMMAND
-    COMMAND = 'next_button'
+    COMMAND = 'next'
     return jsonify({'command': COMMAND})
 
 
